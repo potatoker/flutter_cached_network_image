@@ -10,7 +10,7 @@ typedef Widget LoadingErrorWidgetBuilder(
     BuildContext context, String url, Object error);
 
 class CachedNetworkImage extends StatefulWidget {
-  /// Option to use cachemanager with other settings
+  /// Option to use cacheManager with other settings
   final BaseCacheManager cacheManager;
 
   /// The target image that is displayed.
